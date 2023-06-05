@@ -3,7 +3,6 @@ export default abstract class Race {
   private _dexterity: number;
 
   constructor(n: string, dx: number) {
-    console.log('Creating race $(n)');
     this._name = n;
     this._dexterity = dx;
   }
